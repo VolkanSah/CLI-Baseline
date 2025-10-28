@@ -3,7 +3,7 @@
 Fast, practical, no BS.
 Collects all *executable* commands from `$PATH` and optionally produces a `path:sha256` whitelist you can use for host-integrity checks.
 
----
+
 
 ## What it does
 
@@ -13,7 +13,7 @@ Collects all *executable* commands from `$PATH` and optionally produces a `path:
 
 Perfect for baselining, anti-spoofing, or building a whitelist for monitoring tools.
 
----
+
 
 ## Quick command — list unique command names
 
@@ -23,7 +23,6 @@ echo "$PATH" | tr ':' '\n' | xargs -I {} find {} -maxdepth 1 -type f -executable
 
 Saves unique command names (e.g. `ls`, `bash`, `python3`) to `master_cli_commands.txt`.
 
----
 
 ## Recommended: path:hash whitelist (better for whitelisting)
 
@@ -54,7 +53,7 @@ Example output (truncated):
 * `sha256sum "$path" | cut -d ' ' -f 1` — compute SHA-256 and take only the hash.
 * `echo "$path:$hash"` — emit `path:hash`, ideal for whitelists.
 
----
+
 
 ## Usage tips
 
@@ -63,7 +62,6 @@ Example output (truncated):
 * Save `master_path_hashes.txt` to a secure location. Use it for comparison during audits.
 * To generate hashes with `sha1sum` or `sha512sum`, replace `sha256sum` accordingly.
 
----
 
 ## Caveats & security
 
@@ -81,13 +79,13 @@ Example output (truncated):
 3. Store `master_path_hashes.txt` in your secure baseline repo.
 4. Use as baseline for CI/inventory/host-integrity checks.
 
----
+
 
 ## License
 
 Use whatever license your org prefers. I recommend a short permissive license (MIT or CC0) for the tooling/scripts unless the data contains sensitive or proprietary file paths.
 
----
+
 
 ## Contribute
 
