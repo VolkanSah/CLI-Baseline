@@ -84,7 +84,7 @@ Example output (truncated):
 
 ## License
 
-Use whatever license your org prefers. I recommend a short permissive license (MIT or CC0) for the tooling/scripts unless the data contains sensitive or proprietary file paths.
+Its free! Use whatever license your org prefers. I recommend a short permissive license (MIT or CC0) for the tooling/scripts unless the data contains sensitive or proprietary file paths. Have fun!
 
 
 
