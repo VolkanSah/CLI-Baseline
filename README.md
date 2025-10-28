@@ -1,5 +1,5 @@
 # CLI Baseline — Master list & path:hash whitelist
-###### 4 EDU
+###### Tipps 4 EDU
 
 Fast, practical, no BS.
 Collects all *executable* commands from `$PATH` and optionally produces a `path:sha256` whitelist you can use for host-integrity checks.
