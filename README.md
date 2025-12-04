@@ -1,4 +1,5 @@
 # CLI Baseline — Master list & path:hash whitelist
+###### Security Basics
 
 Fast, practical baseline tool for Unix/Linux systems. Catalogs all executable commands from `$PATH` and generates `path:sha256` manifests for host-integrity checks and anti-spoofing.
 
