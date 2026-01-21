@@ -203,7 +203,7 @@ Discovered edge cases? **Open an issue** with platform details.
 
 ## License
 
-Public domain / CC0 / MIT — pick whatever fits your org.  
+Public domain / CC0 / MIT — pick whatever fits your org. Its free for world of devs 😙
 **Exception:** Do not publicly share manifests containing proprietary paths.
 
 ---
