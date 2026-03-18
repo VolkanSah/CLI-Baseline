@@ -1,0 +1,181 @@
+# =============================================================================
+# ShellMaster Core Commands
+# Filtered from system command list — Blue/Red Team Basis
+# Copyright 2026 - Volkan Kücükbudak
+# =============================================================================
+
+# NETWORK RECON & MONITORING
+nmap
+ss
+netstat
+tcpdump
+tshark
+ip
+ifconfig
+ping
+tracepath
+mtr
+dig
+nslookup
+host
+curl
+wget
+socat
+nc.openbsd
+nping
+arp
+nft
+iptables
+resolvectl
+
+# PROCESS & PERFORMANCE
+ps
+top
+htop
+pgrep
+kill
+killall
+pmap
+pstree
+pidstat
+vmstat
+iostat
+mpstat
+strace
+lsof
+fuser
+nice
+renice
+taskset
+perf
+
+# LOG FORENSICS
+journalctl
+tail
+grep
+awk
+sed
+cut
+sort
+uniq
+logger
+logrotate
+dmesg
+last
+lastlog
+who
+w
+utmpdump
+
+# FILESYSTEM & DISK FORENSICS
+find
+stat
+ls
+lsattr
+chattr
+df
+du
+lsblk
+fdisk
+gdisk
+blkid
+mount
+dd
+xxd
+strings
+file
+sha256sum
+sha1sum
+md5sum
+rsync
+tar
+debugfs
+e2fsck
+filefrag
+tune2fs
+
+# SECURITY & HARDENING
+ssh
+ssh-keygen
+ssh-copy-id
+openssl
+gpg
+fail2ban-client
+chkrootkit
+clamscan
+ufw
+setcap
+getcap
+chroot
+nsenter
+sudo
+visudo
+passwd
+chage
+useradd
+userdel
+usermod
+groups
+id
+tor
+torsocks
+torify
+
+# SYSTEM & SERVICES
+systemctl
+systemd-analyze
+crontab
+uptime
+free
+uname
+lscpu
+lshw
+lspci
+lsusb
+dmidecode
+sysctl
+timedatectl
+hostnamectl
+env
+printenv
+tmux
+screen
+watch
+at
+service
+shutdown
+reboot
+
+# NETWORK FORENSICS & ATTACK SURFACE
+nikto
+wapiti
+sqlmap
+ncat
+traceroute
+whois
+torsocks
+scapy
+bpftrace
+tcplife-bpfcc
+tcpconnect-bpfcc
+opensnoop-bpfcc
+execsnoop-bpfcc
+
+# MEMORY & KERNEL
+/proc/meminfo
+/proc/buddyinfo
+/proc/vmstat
+/proc/slabinfo
+free
+vmstat
+pmap
+slabtop
+memusage
+
+# WIRESHARK FILTERS (not commands but ShellMaster shortcuts)
+# dns && frame.time_delta
+# frame.time_delta.stddev < 0.05
+# dns.qry.name.len > 60
+# http.request.method == "POST" && !ssl
+# tcp.analysis.keep_alive
+# ssl && tcp.len > 1400
